@@ -1,0 +1,42 @@
+/*font-format*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*styling heading*/
+.heading {
+    font-weight: 500;
+    color: #5fa8d3;
+    text-shadow: 0px 2px 3px black;
+}
+/*courses list styling*/
+.card a:hover, a:hover {
+    text-decoration: underline;
+}
+.card-header, .card-footer {
+    background-color: #e2eafc;
+}
+.card-body {
+    background-color: #edf2fb;
+}
+@media screen and (max-width: 800px) {
+    .container-fluid .row .col-md-3 .card {
+        margin-top: 10px;
+    }
+}
+/*time table's font size*/
+.time-bg {
+    padding: 20px;
+    margin: 0px 15px;
+    border: 2px solid #9f86c0;
+    background-color: #e2eafc;
+}
+.time-bg a:link, .time-bg a:visited {
+    color: #757bc8;
+    text-decoration: none;
+}
+.times {
+    font-size: 20px;
+}
+.para-space {
+    margin-top: 0;
+}
